@@ -1,0 +1,31 @@
+
+# Virtual environment
+.venv/
+venv/
+
+# Dataset and downloaded files
+dataset/
+downloads/
+
+# Presentation testing images
+Presentation Images/
+
+# Old model checkpoints
+models/*.keras
+!models/best_model_finetuned.keras
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Operating system
+.DS_Store
+
+# IDE
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.log
